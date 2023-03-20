@@ -1,0 +1,47 @@
+:root {
+	--midnight-blue: #1b2853;
+	--dark-blue: #13477d;
+	--aqua-blue: #04c4ca;
+	--sunset-yellow: #f3ce75;
+	--peach: #e2a099;
+	--black: #0a0a0a;
+	--white: #ffffff;
+	--font-main: "Kdam Thmor Pro";
+	--font-pixie: "Press Start 2P";
+	--font-alt: "Russo One";
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background: linear-gradient(180deg, #043959 5%, #2f9d90 100%);
+	color: var(--white);
+	background-repeat: no-repeat;
+	margin: 0;
+}
+
+h1 {
+	font-family: var(--font-alt);
+	font-size: 7em;
+	text-align: center;
+	text-transform: uppercase;
+	color: var(--sunset-yellow);
+	text-shadow: var(--peach) 4px 3px;
+	margin-top: 15vh;
+}
+
+.load_text {
+	font-family: var(--font-pixie);
+	font-size: 3em;
+	color: var(--black);
+	text-transform: lowercase;
+	text-align: center;
+}
